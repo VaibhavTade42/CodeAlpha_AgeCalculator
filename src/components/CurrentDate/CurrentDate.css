@@ -1,0 +1,18 @@
+/* CurrentDate.css */
+.current-date {
+    margin-bottom: 20px; /* Adjust as needed */
+    text-align: center;
+    font-size: 1.2em;
+    color: #333; /* Adjust text color if needed */
+}
+
+.current-date p {
+    margin: 5px 0; /* Adjust spacing between elements */
+}
+.today-button {
+    margin: 5px;
+}
+
+.form-control {
+   margin: -5px;
+}

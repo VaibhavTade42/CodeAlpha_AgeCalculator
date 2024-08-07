@@ -1,0 +1,55 @@
+/* src/components/styles/Weather.css */
+.weather-forecast-w {
+    margin-top: 50px; /* Adjust this value to align with AgeCalculator */
+    margin-bottom: 20px; /* Adjust as needed */
+    text-align: center;
+    font-size: 1.2em;
+    color: #333; /* Adjust text color if needed */
+    border: 1px solid #ddd; /* Optional: add a border for better visibility */
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 100%; /* Set width to 100% to use available space */
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin-left: auto; /* Center the component horizontally */
+    margin-right: auto; /* Center the component horizontally */
+}
+
+.weather-forecast-w h2 {
+    margin-bottom: 10px;
+}
+
+.weather-forecast-w p {
+    margin: 5px 0;
+}
+
+#indianCities-w {
+    margin-bottom: 20px;
+}
+
+#lableSelectIndCity-w {
+    margin-bottom: 10px;
+}
+
+#labelSelectWorldCity-w {
+    margin-bottom: 10px;
+}
+
+.weather-details-w {
+    margin-top: 10px;
+}
+
+.logoutbutton-w{
+    background-color: #e9300bdb;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.logoutbutton-w :hover{
+    background-color: red;
+}
+
+
+

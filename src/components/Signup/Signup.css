@@ -1,0 +1,93 @@
+*,
+::before,
+::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+label{
+  font-size: 20px;
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+  overflow: auto; /* Ensure overflow is enabled */
+  margin: 0; /* Ensure there's no extra margin */
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+}
+
+.container{
+  background-color: #fff;
+  /* padding: 10px 12px; */
+  padding: 32px 48px;
+  /* padding: 64px 80px; */
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  margin-top: 20px;/* Add some margin from the top */
+  margin-bottom: 20px; /* Add some margin from the bottom */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center; */
+}
+
+#login_page{
+  margin-top: 50%;
+}
+
+.container > h1{
+  margin-bottom: 20px;
+}
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container div{
+  display: flex;
+  flex-direction: column;
+}
+
+.pageheading{
+  align-items: center;
+  font-size: 25px;
+  font-style: normal;
+  color: dodgerblue;
+}
+
+.container input{
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.container input::placeholder{
+  font-size: 12px;
+  font-style: italic;
+}
+
+button{
+  background-color: rgb(174, 173, 230);
+  border: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}

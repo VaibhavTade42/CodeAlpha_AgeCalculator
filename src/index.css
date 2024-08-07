@@ -1,0 +1,45 @@
+/* index.css */
+ /* html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  } */
+  
+ /* // * {
+ //   box-sizing: border-box;
+ // } */
+  
+  /* .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f8f9fa; 
+  }
+
+  .content {
+    flex: 1;
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+  }
+    */
+
+    /* .App {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      width: 70%; /* Set width to 70% */
+     /* margin: 0 auto; /* Center the component */
+     /* background-color: #f8f9fa; 
+    } */

@@ -1,0 +1,40 @@
+/* AgeCalculator.css */
+
+
+.age-calculator {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-center {
+    margin-bottom: 20px;
+  }
+  
+  .date-picker-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-control {
+    width: 70%;
+    margin-right: 10px;
+  }
+  
+  .date-picker-button,
+  .today-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .date-picker-button:hover,
+  .today-button:hover {
+    background-color: #0056b3;
+  }
+  
